@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr10", "pr10\pr10.csproj", "{DCC85A84-6C2F-4D68-8D14-5D55F4779F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcc", "calcc\calcc.csproj", "{B3100888-02B8-44BB-936A-5A4DE6657464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC85A84-6C2F-4D68-8D14-5D55F4779F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC85A84-6C2F-4D68-8D14-5D55F4779F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC85A84-6C2F-4D68-8D14-5D55F4779F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC85A84-6C2F-4D68-8D14-5D55F4779F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3100888-02B8-44BB-936A-5A4DE6657464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3100888-02B8-44BB-936A-5A4DE6657464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3100888-02B8-44BB-936A-5A4DE6657464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3100888-02B8-44BB-936A-5A4DE6657464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B46AA998-017F-443E-AAF4-8E7B092C025E}
+	EndGlobalSection
+EndGlobal

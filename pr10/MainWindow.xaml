@@ -1,0 +1,28 @@
+﻿<Window x:Class="pr10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500" ResizeMode="NoResize" Style="{StaticResource win}">
+    <Grid>
+        <TextBox Name="ta" VerticalAlignment="Top" HorizontalAlignment="Center" Width="479" Height="109" Margin="11"/>
+        <Button Name="bq" Content="+" Margin="10,154,374,220" Click="bq_Click" />
+        <Button x:Name="bw" Content="7" Margin="132,154,252,220" Click="bw_Click" />
+        <Button x:Name="be" Content="8" Margin="252,154,132,220" Click="be_Click" />
+        <Button x:Name="br" Content="9" Margin="374,154,10,220" Click="br_Click" />
+        <Button x:Name="bt" Content="-" Margin="10,219,374,155" Click="bt_Click" />
+        <Button x:Name="by" Content="4" Margin="132,219,252,155" Click="by_Click" />
+        <Button x:Name="bu" Content="5" Margin="252,219,132,155" Click="bu_Click" />
+        <Button x:Name="bi" Content="6" Margin="374,219,10,155" Click="bi_Click" />
+        <Button x:Name="bo" Content="*" Margin="10,284,374,90" Click="bo_Click" />
+        <Button x:Name="bp" Content="1" Margin="132,284,252,90" Click="bp_Click" />
+        <Button x:Name="ba" Content="2" Margin="252,284,132,90" Click="ba_Click" />
+        <Button x:Name="bs" Content="3" Margin="374,284,10,90" Click="bs_Click" />
+        <Button x:Name="bd" Content="/" Margin="10,349,374,25" Click="bd_Click" />
+        <Button x:Name="bf" Content="C" Margin="132,349,252,25" Click="bf_Click" />
+        <Button x:Name="bg" Content="0" Margin="252,349,132,25" Click="bg_Click" />
+        <Button x:Name="bh" Content="=" Margin="374,349,10,25" Click="bh_Click" />
+    </Grid>
+</Window>
